@@ -12,7 +12,7 @@ import java.net.URL;
 public class httpConectorImpl implements httpConector {
 
     private static final String USER_AGENT = "Mozilla/5.0";
-    private static final String GET_URL = "https://www.alphavantage.co/query?function=%s&symbol=%s&interval=5min&apikey=Q1QZFVJQ21K7C6XM";
+    private static final String GET_URL = "https://www.alphavantage.co/query?function=%s&symbol=%s&interval=5min&apikey=Q1QZFVJQ21K7C6XM&datatype=json";
 
     @Override
     public StringBuffer dataconnector(String function, String symbol) throws IOException {
