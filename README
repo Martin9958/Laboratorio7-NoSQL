@@ -14,3 +14,7 @@ La arquitectura debe tener las siguientes características.
 8.  Debe utilizar maven para gestionar el ciclo de vida, git y github para almacenar al código fuente y Heroku como plataforma de producción.    
 9.  La base de datos debe ser MongoDB.
 10.  Documente su arquitectura en el README.md
+
+https://www.baeldung.com/queries-in-spring-data-mongodb
+https://spring.io/guides/gs/accessing-data-mongodb/
+
