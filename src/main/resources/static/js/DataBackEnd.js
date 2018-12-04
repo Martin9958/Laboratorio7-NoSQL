@@ -5,7 +5,7 @@ var informationModule = (function(){
             return metadata;
         },
         setMetadata : function(datemeta, openmeta, lowmeta, closemeta, volumemeta){
-            metadata.push({date : datemeta, open : openmeta, low : lowmeta, close : closemeta, volume : volumemeta});
+            metadata.push({date : datemeta, open : openmeta, high: highmeta, low : lowmeta, close : closemeta, volume : volumemeta});
         }
     }
 })();
